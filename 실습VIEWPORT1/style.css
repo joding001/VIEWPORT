@@ -1,6 +1,6 @@
 body, ul, li, h3, p{
-	margin:0px;
-	padding:0;
+	margin: 0;
+	padding: 0;
 }
 
 a {
@@ -91,6 +91,15 @@ ul.perfumes-list {
 	box-shadow:
 	0px -70px 30px -20px inset rgba(174, 0, 255, 0.3),
 	0px 1px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.gnhp {
+	width: 100%;
+}
+
+.gnhp h4, p {
+	color: #590061;
+	line-height: 0px;
 }
 
 #perfumes-list li:nth-child(1) .perfume { background-position: center 0; background-size: 250px; background-image: url('images/0.png'); }
