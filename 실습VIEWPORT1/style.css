@@ -47,7 +47,11 @@ html, body {
 
 .content {
 	width: calc(100% - 250px);
-	max-width: 840px;
+	max-width: 960px;
+	float: right;
+}
+
+#perfumes-list {
 	float: right;
 }
 
@@ -68,57 +72,60 @@ html, body {
 	text-align: center;
 }
 
-ul.perfumes-list {
-	width: 200px;
+.gnb-one a, .gnb-two a {
+	display: inline-block;
+	width: 250px;
 }
+
 
 .perfume {
 	float: left;
-	width: 250px;
-	height: 300px;
-	margin: 0 15px 15px;
+	width: 300px;
+	height: 400px;
+	margin: 0 10px 20px;
 	background-color: #fff;
 	box-shadow:
-	0px -70px 30px -20px inset rgba(174, 0, 255, 0.3),
+	0px -70px 30px -20px inset rgba(174, 0, 255, 0.1),
 	0px 1px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
-.perfume h3 {
-	float: left;
-	width: 250px;
-	height: 300px;
-	margin: 0 15px 15px;
-	box-shadow:
-	0px -70px 30px -20px inset rgba(174, 0, 255, 0.3),
-	0px 1px 5px 0px rgba(0, 0, 0, 0.3);
+.perfume h4, p {
+	text-align: center;
+	color: #590061;
+}
+
+.perfume h4 {
+	font-size: 17px;
+}
+
+.perfume p {
+	font-size: 16px;
+	margin: -20px 0 0 0;
 }
 
 .gnhp {
+	margin: 320px 0 0 0;
 	width: 100%;
+	height: 20px;
 }
 
-.gnhp h4, p {
-	color: #590061;
-	line-height: 0px;
-}
-
-#perfumes-list li:nth-child(1) .perfume { background-position: center 0; background-size: 250px; background-image: url('images/0.png'); }
-#perfumes-list li:nth-child(2) .perfume { background-position: center 0; background-size: 250px; background-image: url('images/1.png'); }
-#perfumes-list li:nth-child(3) .perfume { background-position: center 0; background-size: 250px; background-image: url('images/2.png'); }
-#perfumes-list li:nth-child(4) .perfume { background-position: center 0; background-size: 250px; background-image: url('images/3.png'); }
-#perfumes-list li:nth-child(5) .perfume { background-position: center 0; background-size: 250px; background-image: url('images/4.png'); }
-#perfumes-list li:nth-child(6) .perfume { background-position: center 0; background-size: 250px; background-image: url('images/5.png'); }
-#perfumes-list li:nth-child(7) .perfume { background-position: center 0; background-size: 250px; background-image: url('images/6.png'); }
-#perfumes-list li:nth-child(8) .perfume { background-position: center 0; background-size: 250px; background-image: url('images/7.png'); }
-#perfumes-list li:nth-child(9) .perfume { background-position: center 0; background-size: 250px; background-image: url('images/8.png'); }
-#perfumes-list li:nth-child(10) .perfume { background-position: center 0; background-size: 250px; background-image: url('images/9.png'); }
-#perfumes-list li:nth-child(11) .perfume { background-position: center 0; background-size: 250px; background-image: url('images/10.png'); }
-#perfumes-list li:nth-child(12) .perfume { background-position: center 0; background-size: 250px; background-image: url('images/11.png'); }
-#perfumes-list li:nth-child(13) .perfume { background-position: center 0; background-size: 250px; background-image: url('images/12.png'); }
-#perfumes-list li:nth-child(14) .perfume { background-position: center 0; background-size: 250px; background-image: url('images/13.png'); }
-#perfumes-list li:nth-child(15) .perfume { background-position: center 0; background-size: 250px; background-image: url('images/14.png'); }
-#perfumes-list li:nth-child(16) .perfume { background-position: center 0; background-size: 250px; background-image: url('images/15.png'); }
-#perfumes-list li:nth-child(17) .perfume { background-position: center 0;  background-size: 250px;background-image: url('images/16.png'); }
+#perfumes-list li:nth-child(1) .perfume { background-repeat: no-repeat; background-position: center 0; background-size: 100%; background-image: url('images/0.png'); }
+#perfumes-list li:nth-child(2) .perfume { background-repeat: no-repeat; background-position: center 0; background-size: 100%; background-image: url('images/1.png'); }
+#perfumes-list li:nth-child(3) .perfume { background-repeat: no-repeat; background-position: center 0; background-size: 100%; background-image: url('images/2.png'); }
+#perfumes-list li:nth-child(4) .perfume { background-repeat: no-repeat; background-position: center 0; background-size: 100%; background-image: url('images/3.png'); }
+#perfumes-list li:nth-child(5) .perfume { background-repeat: no-repeat; background-position: center 0; background-size: 100%; background-image: url('images/4.png'); }
+#perfumes-list li:nth-child(6) .perfume { background-repeat: no-repeat; background-position: center 0; background-size: 100%; background-image: url('images/5.png'); }
+#perfumes-list li:nth-child(7) .perfume { background-repeat: no-repeat; background-position: center 0; background-size: 100%; background-image: url('images/6.png'); }
+#perfumes-list li:nth-child(8) .perfume { background-repeat: no-repeat; background-position: center 0; background-size: 100%; background-image: url('images/7.png'); }
+#perfumes-list li:nth-child(9) .perfume { background-repeat: no-repeat; background-position: center 0; background-size: 100%; background-image: url('images/8.png'); }
+#perfumes-list li:nth-child(10) .perfume { background-repeat: no-repeat; background-position: center 0; background-size: 100%; background-image: url('images/9.png'); }
+#perfumes-list li:nth-child(11) .perfume { background-repeat: no-repeat; background-position: center 0; background-size: 100%; background-image: url('images/10.png'); }
+#perfumes-list li:nth-child(12) .perfume { background-repeat: no-repeat; background-position: center 0; background-size: 100%; background-image: url('images/11.png'); }
+#perfumes-list li:nth-child(13) .perfume { background-repeat: no-repeat; background-position: center 0; background-size: 100%; background-image: url('images/12.png'); }
+#perfumes-list li:nth-child(14) .perfume { background-repeat: no-repeat; background-position: center 0; background-size: 100%; background-image: url('images/13.png'); }
+#perfumes-list li:nth-child(15) .perfume { background-repeat: no-repeat; background-position: center 0; background-size: 100%; background-image: url('images/14.png'); }
+#perfumes-list li:nth-child(16) .perfume { background-repeat: no-repeat; background-position: center 0; background-size: 100%; background-image: url('images/15.png'); }
+#perfumes-list li:nth-child(17) .perfume { background-repeat: no-repeat; background-position: center 0;  background-size: 100%;background-image: url('images/16.png'); }
 
 .gnb-one li:hover, .gnb-two li:hover {
 	background-color: #111;
