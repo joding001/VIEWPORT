@@ -46,6 +46,10 @@ html, body {
 	z-index: 9999;
 }
 
+.gnb-wrapper ul {
+	overflow: hidden;
+}
+
 .gnb-one, .gnb-two {
 	width: 250px;
 	font-size: 13px;
@@ -167,9 +171,9 @@ html, body {
 		max-width: none;
 		float: left;
 		position: relative;
-		top: 200px;
+		top: 150px;
 		left: 0;
-		margin: -50px 0 0 0;
+		margin: 0;
 	}
 	
 	.logo {
@@ -213,7 +217,7 @@ html, body {
 		height: 0;
 		padding-bottom: calc(var(--aspect-ratio) * 100%);
 		background-color: #fff;
-		box-shadow:0px -70px 30px -20px inset rgba(174, 0, 255, 0.1);
+		box-shadow: 0px -70px 30px -20px inset rgba(174, 0, 255, 0.1);
 	}
 }
 
@@ -225,7 +229,9 @@ html, body {
 	.sidebar {
 		position: fixed;
 		width: 100%;
-		height: auto;
+		height: 45px;
+		padding: 0;
+		overflow: hidden;
 		background-color: #222;
 	}
 	
@@ -234,25 +240,45 @@ html, body {
 		max-width: none;
 		float: left;
 		position: relative;
-		top: 200px;
+		top: 45px;
 		left: 0;
-		margin: -50px 0 0 0;
+		margin: 0;
 	}
 	
 	.logo {
-		margin: 20px auto;
+		width: 90px;
+		height: 27px;
+		margin: 7.5px;
+	}
+
+	.logo img {
+		width: 90px;
+		height: 27px;
+		height: none;
+	}
+
+	.logo a {
+		width: 90px;
+		height: 27px;
 	}
 	
 	.gnb-wrapper {
-		width: 364px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 157px;
 		height: 45px;
-		margin: 0 auto;
+		line-height: 45px;
+		float: right;
 	}
 	
-	.gnb-one, .gnb-two {
+	.gnb-one {
 		width: auto;
-		float: left;
 		margin: 0;
+	}
+
+	.gnb-two {
+		display: none;
 	}
 
 	.sidebar li {
@@ -270,7 +296,7 @@ html, body {
 
 	#perfumes-list li {
 		float: left;
-		width: 33.3334%;
+		width: 100%;
 		overflow: hidden;
 		margin: 0;
 	}
@@ -280,6 +306,6 @@ html, body {
 		height: 0;
 		padding-bottom: calc(var(--aspect-ratio) * 100%);
 		background-color: #fff;
-		box-shadow:0px -70px 30px -20px inset rgba(174, 0, 255, 0.1);
+		box-shadow: 0px -70px 30px -20px inset rgba(174, 0, 255, 0.1);
 	}
 }
