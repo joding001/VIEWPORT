@@ -3,3 +3,13 @@
 	배경색 c9e5ff
 	로고 너비값 280px / 높이값 50px
 */
+
+* { margin: 0;  }
+a { text-decoration: none;  color: #fff; }
+ul { list-style: none; }
+img { vertical-align: bottom; }
+
+.logo {
+
+}
+.header .wrapper > img { position: absolute; top: 0; right: -30px; }
